@@ -17,6 +17,9 @@ app.get('/users/rahul',(req,res)=>{
 app.get('/users/rahul/kumar',(req,res)=>{
     res.send("this is rahul page   ")
 })
+app.get('/users/ismtt',(req,res)=>{
+    res.send("this is Ismt page   ")
+})
 // app.post('/users',(req,res)=>{
 //     res.send("this is rahul page   ")
 // })
