@@ -1,4 +1,4 @@
-const express=require("express");
+const express=requires("express");
 const { userController, SearchController } = require("./controller");
 const { login } = require("./login");
 const app=express();
